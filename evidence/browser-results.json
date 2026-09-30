@@ -1,0 +1,486 @@
+[
+  {
+    "check": "Desktop content and invoice data",
+    "passed": true,
+    "details": {
+      "services": 5,
+      "objectives": 4,
+      "benefits": 5,
+      "sections": 8,
+      "totals": [
+        "₱4,000.00",
+        "₱4,000.00"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "check": "Primary CTA opens the explicit invoice demo",
+    "passed": true,
+    "details": {
+      "hash": "#invoice-demo",
+      "top": 110.46875,
+      "label": "Invoice preview / demo"
+    }
+  },
+  {
+    "check": "Desktop anchor: Overview",
+    "passed": true,
+    "details": {
+      "hash": "#overview",
+      "top": 109.59375,
+      "atBottom": false
+    }
+  },
+  {
+    "check": "Desktop anchor: Services",
+    "passed": true,
+    "details": {
+      "hash": "#services",
+      "top": 109.71875,
+      "atBottom": false
+    }
+  },
+  {
+    "check": "Desktop anchor: Our purpose",
+    "passed": true,
+    "details": {
+      "hash": "#purpose",
+      "top": 110.46875,
+      "atBottom": false
+    }
+  },
+  {
+    "check": "Desktop anchor: Objectives",
+    "passed": true,
+    "details": {
+      "hash": "#objectives",
+      "top": 110.390625,
+      "atBottom": false
+    }
+  },
+  {
+    "check": "Desktop anchor: Why SoloBill",
+    "passed": true,
+    "details": {
+      "hash": "#why-solobill",
+      "top": 110.34375,
+      "atBottom": false
+    }
+  },
+  {
+    "check": "Desktop anchor: Contact",
+    "passed": true,
+    "details": {
+      "hash": "#contact",
+      "top": 150.09375,
+      "atBottom": true
+    }
+  },
+  {
+    "check": "Service selection: Quotation Generator",
+    "passed": true,
+    "details": {
+      "title": "Quotation Generator",
+      "description": "Present your services and charges clearly before the work begins, so you and your client can agree on the price.",
+      "selected": [
+        "Quotation Generator"
+      ],
+      "count": 5
+    }
+  },
+  {
+    "check": "Service selection: Invoice Generator",
+    "passed": true,
+    "details": {
+      "title": "Invoice Generator",
+      "description": "Turn your work into a professional, itemized invoice. Downloadable invoices are part of the business concept, not a function of this portfolio.",
+      "selected": [
+        "Invoice Generator"
+      ],
+      "count": 5
+    }
+  },
+  {
+    "check": "Service selection: Client Manager",
+    "passed": true,
+    "details": {
+      "title": "Client Manager",
+      "description": "Keep client information and previous transactions organized rather than scattered across chats and documents.",
+      "selected": [
+        "Client Manager"
+      ],
+      "count": 5
+    }
+  },
+  {
+    "check": "Service selection: Payment Tracker",
+    "passed": true,
+    "details": {
+      "title": "Payment Tracker",
+      "description": "Know which invoices still need attention. Recording payment status is different from processing online payments, which is a future objective.",
+      "selected": [
+        "Payment Tracker"
+      ],
+      "count": 5
+    }
+  },
+  {
+    "check": "Service selection: Income Dashboard",
+    "passed": true,
+    "details": {
+      "title": "Income Dashboard",
+      "description": "Bring earnings and outstanding balances into one understandable overview, helping beginning freelancers see where they stand.",
+      "selected": [
+        "Income Dashboard"
+      ],
+      "count": 5
+    }
+  },
+  {
+    "check": "Service selector keyboard and visible focus",
+    "passed": true,
+    "details": {
+      "title": "Client Manager",
+      "focused": "Client Manager\nStores client details and transaction history.\nSelected",
+      "outline": "solid",
+      "outlineWidth": "3px"
+    }
+  },
+  {
+    "check": "Contact empty-field validation",
+    "passed": true,
+    "details": {
+      "errors": [
+        "Enter your name (at least 2 characters).",
+        "Enter a valid email address.",
+        "Enter a message (at least 10 characters)."
+      ],
+      "invalid": 3,
+      "feedback": "Please correct the highlighted fields. Nothing has been sent.",
+      "focus": "contact-name"
+    }
+  },
+  {
+    "check": "Contact invalid email and short message",
+    "passed": true,
+    "details": {
+      "errors": [
+        "Enter a valid email address.",
+        "Enter a message (at least 10 characters)."
+      ],
+      "invalid": 2,
+      "focus": "contact-email"
+    }
+  },
+  {
+    "check": "Contact valid demo explicitly not sent or saved",
+    "passed": true,
+    "details": {
+      "errors": 0,
+      "feedback": "Demo complete: your entries passed basic validation. Your message was not sent or saved.",
+      "requests": 22,
+      "hash": "#contact"
+    }
+  },
+  {
+    "check": "Contact submit makes no resource request or navigation",
+    "passed": true,
+    "details": {
+      "before": 22,
+      "after": 22,
+      "hash": "#contact"
+    }
+  },
+  {
+    "check": "Desktop browser errors, labels, IDs, and local-only resources",
+    "passed": true,
+    "details": {
+      "errors": [],
+      "externalResources": [],
+      "missingLabels": [],
+      "duplicateIds": [],
+      "overflow": false
+    }
+  },
+  {
+    "check": "Mobile skip link keyboard focus",
+    "passed": true,
+    "details": {
+      "text": "Skip to content",
+      "top": 12,
+      "outline": "3px"
+    }
+  },
+  {
+    "check": "Mobile menu reachable by keyboard",
+    "passed": true,
+    "details": {
+      "text": "Menu",
+      "expanded": "false"
+    }
+  },
+  {
+    "check": "Mobile menu opens with Enter and expanded state",
+    "passed": true,
+    "details": {
+      "expanded": "true",
+      "display": "flex",
+      "links": 6
+    }
+  },
+  {
+    "check": "Mobile menu Escape closes and returns focus",
+    "passed": true,
+    "details": {
+      "expanded": "false",
+      "display": "none",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "check": "Mobile menu opens with Space",
+    "passed": true,
+    "details": {
+      "expanded": "true"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Overview",
+    "passed": true,
+    "details": {
+      "hash": "#overview",
+      "top": 91.8125,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Services",
+    "passed": true,
+    "details": {
+      "hash": "#services",
+      "top": 92.359375,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Our purpose",
+    "passed": true,
+    "details": {
+      "hash": "#purpose",
+      "top": 92.046875,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Objectives",
+    "passed": true,
+    "details": {
+      "hash": "#objectives",
+      "top": 91.640625,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Why SoloBill",
+    "passed": true,
+    "details": {
+      "hash": "#why-solobill",
+      "top": 91.53125,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile anchor and menu close: Contact",
+    "passed": true,
+    "details": {
+      "hash": "#contact",
+      "top": 91.546875,
+      "expanded": "false",
+      "navDisplay": "none"
+    }
+  },
+  {
+    "check": "Mobile selected service changes while all services remain",
+    "passed": true,
+    "details": {
+      "selected": "Payment Tracker",
+      "title": "Payment Tracker",
+      "count": 5
+    }
+  },
+  {
+    "check": "Mobile contact empty validation",
+    "passed": true,
+    "details": {
+      "invalid": 3,
+      "feedback": "Please correct the highlighted fields. Nothing has been sent.",
+      "focus": "contact-name"
+    }
+  },
+  {
+    "check": "Mobile contact valid demo feedback",
+    "passed": true,
+    "details": {
+      "invalid": 0,
+      "feedback": "Demo complete: your entries passed basic validation. Your message was not sent or saved.",
+      "overflow": false
+    }
+  },
+  {
+    "check": "Mobile primary CTA reaches explicit preview",
+    "passed": true,
+    "details": {
+      "hash": "#invoice-demo",
+      "top": 91.90625,
+      "label": "Invoice preview / demo"
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 320px",
+    "passed": true,
+    "details": {
+      "viewport": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "heroColumns": "280px",
+      "menuDisplay": "block",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 360px",
+    "passed": true,
+    "details": {
+      "viewport": 360,
+      "documentWidth": 360,
+      "bodyWidth": 360,
+      "heroColumns": "320px",
+      "menuDisplay": "block",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 390px",
+    "passed": true,
+    "details": {
+      "viewport": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "heroColumns": "350px",
+      "menuDisplay": "block",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 620px",
+    "passed": true,
+    "details": {
+      "viewport": 620,
+      "documentWidth": 620,
+      "bodyWidth": 620,
+      "heroColumns": "580px",
+      "menuDisplay": "block",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 768px",
+    "passed": true,
+    "details": {
+      "viewport": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "heroColumns": "355.016px 316.984px",
+      "menuDisplay": "block",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 1024px",
+    "passed": true,
+    "details": {
+      "viewport": 1024,
+      "documentWidth": 1009,
+      "bodyWidth": 1009,
+      "heroColumns": "459.094px 409.906px",
+      "menuDisplay": "none",
+      "services": 5
+    }
+  },
+  {
+    "check": "Responsive no horizontal overflow at 1440px",
+    "passed": true,
+    "details": {
+      "viewport": 1440,
+      "documentWidth": 1425,
+      "bodyWidth": 1425,
+      "heroColumns": "572.672px 511.328px",
+      "menuDisplay": "none",
+      "services": 5
+    }
+  },
+  {
+    "check": "Reduced-motion preference respected",
+    "passed": true,
+    "details": {
+      "matches": true,
+      "scroll": "auto",
+      "animation": "none"
+    }
+  },
+  {
+    "check": "Mobile and responsive browser errors and local-only resources",
+    "passed": true,
+    "details": {
+      "errors": [],
+      "externalResources": []
+    }
+  },
+  {
+    "check": "Core rendered text contrast pairs",
+    "passed": true,
+    "details": [
+      {
+        "name": "Heading on neutral",
+        "foreground": "rgb(20, 43, 61)",
+        "background": "rgb(244, 248, 246)",
+        "contrastRatio": 13.59,
+        "passes4_5": true
+      },
+      {
+        "name": "Body on white",
+        "foreground": "rgb(73, 92, 101)",
+        "background": "rgb(255,255,255)",
+        "contrastRatio": 7.0,
+        "passes4_5": true
+      },
+      {
+        "name": "Body on neutral",
+        "foreground": "rgb(73, 92, 101)",
+        "background": "rgb(244, 248, 246)",
+        "contrastRatio": 6.53,
+        "passes4_5": true
+      },
+      {
+        "name": "Primary button",
+        "foreground": "rgb(255, 255, 255)",
+        "background": "rgb(8, 119, 91)",
+        "contrastRatio": 5.53,
+        "passes4_5": true
+      },
+      {
+        "name": "Selection text",
+        "foreground": "rgb(6, 93, 71)",
+        "background": "rgb(231, 241, 236)",
+        "contrastRatio": 6.83,
+        "passes4_5": true
+      }
+    ]
+  }
+]
